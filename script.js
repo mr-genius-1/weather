@@ -33,7 +33,7 @@ async function checkweather(city) {
 
         switch (weather_data.weather[0].main) {
             case 'Clouds':
-                weather_image.src = 'image/cloud.png';
+                weather_image.src = 'images/cloud.png';
                 break;
             
             case 'Clear':
