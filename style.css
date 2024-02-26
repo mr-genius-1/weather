@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(IMAGES/download.jpg);
+    background-image: url(images/download.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover  ;
