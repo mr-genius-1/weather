@@ -37,27 +37,27 @@ async function checkweather(city) {
                 break;
             
             case 'Clear':
-                weather_image.src = '/image/clear.png';
+                weather_image.src = '/images/clear.png';
                 break;
         
             case 'Rain':
-                weather_image.src = 'image/rain.png';
+                weather_image.src = 'images/rain.png';
                 break;
 
             case 'Mist':
-                weather_image.src = 'image/mist.png';
+                weather_image.src = 'images/mist.png';
                 break;
 
             case 'Snow':
-                weather_image.src = 'image/snow.png';
+                weather_image.src = 'images/snow.png';
                 break;
 
             case 'Haze':
-                weather_image.src = 'image/haze.png';
+                weather_image.src = 'images/haze.png';
                 break;
         
             default:
-                weather_image.src='image/cloud.png';
+                weather_image.src='images/cloud.png';
                 break;
         }
 }
